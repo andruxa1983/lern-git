@@ -1,0 +1,16 @@
+sudo apt-get install git-core
+git config --global user.name "Andrei Bychkov"
+git config --global user.email "fordiesel@inbox.ru"
+
+mkdir project
+touch project/file.txt
+cd project
+git init
+ggit remote add origin git@github.com:andruxa1983/lern-git.git (SSH)
+
+git add file.txt
+git commit -m "Added file.txt"
+git push origin master
+
+ssh-keygen
+cat /.ssh/id_rsa.pub
